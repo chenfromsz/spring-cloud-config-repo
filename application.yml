@@ -1,2 +1,6 @@
+spring:
+  profiles:
+    active: cloud
 cloud:
-	sample: hello
+  sample:
+  	msg: hello
