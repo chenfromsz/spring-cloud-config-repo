@@ -4,3 +4,14 @@ spring:
 cloud:
   sample:
     msg: hello
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.1.221:8761/eureka/
+  instance:
+    preferIpAddress: true
+
+ribbon:
+  eureka:
+    enabled: true
