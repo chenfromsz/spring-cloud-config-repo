@@ -5,4 +5,4 @@ neo4j:
     password: 12345678
 cloud:
   config:
-    test: msg-development
+    test: msg-develop
